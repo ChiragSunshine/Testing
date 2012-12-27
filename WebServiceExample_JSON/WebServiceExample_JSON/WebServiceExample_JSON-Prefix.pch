@@ -1,0 +1,17 @@
+//
+// Prefix header for all source files of the 'WebServiceExample_JSON' target in the 'WebServiceExample_JSON' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#define WEB_SERVICE_URL @"http://192.168.3.2:8888/zeen_web/webservices/webservice.php"
+
+#endif
